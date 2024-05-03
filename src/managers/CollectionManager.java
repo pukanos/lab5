@@ -91,7 +91,6 @@ public class CollectionManager {
         for (Movie movie: movieCollection){
             if (movie.getId().equals(id)) return movie;
         }
-        movieCollection.stream().toList().getClass();
         return null;
     }
     /**
